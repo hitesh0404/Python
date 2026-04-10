@@ -1,5 +1,5 @@
-from human import Human
-from classroom import Classroom
+from pythonFiles.human import Human
+from pythonFiles.classroom import Classroom
 class Student(Human):
     def __init__(self,name,age,gender):
         super().__init__(gender)

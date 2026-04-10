@@ -1,5 +1,5 @@
 # each python file is a module
-from student_class import Student
+from pythonFiles.student_class import Student
 class Classroom:
     def __init__(self,students,subject,mode,std):
         self.students = students 
